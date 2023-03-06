@@ -1,0 +1,27 @@
+.book-card{
+    min-height: 45%;
+    width: 100%;
+    border:1% solid #0bee53;
+    background-image: linear-gradient(to top, #11e9e9 0%, rgb(30, 240, 142));
+    border-radius: 10%;
+    margin-bottom: 12%;
+}
+.book-thumbnail{
+    width: 23%;
+    border-radius: 2%;
+}
+.btn-theme{
+    border-radius: 2%;
+    border: none;
+    padding: 1%;
+    color: #fff;
+    outline: none;
+    background-color: #08f2c3;
+}
+.action-card{
+    width: 11%;
+    
+}
+.w-fit{
+    width:fit-content;
+}

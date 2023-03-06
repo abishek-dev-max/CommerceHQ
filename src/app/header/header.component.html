@@ -1,0 +1,16 @@
+<div class="header d-flex align-items">
+    <a routerLink="/home"><img src="../../assets/storelogo-removebg-preview.png" alt="" class="main-logo"></a>
+    <form #searchBox="ngForm">
+        <div class="header-search align-items">
+               <input type="text" class="search-box" [(ngModel)]="searchText" name="searchText"placeholder="        search for books">
+            </div>
+    </form>
+    <button class="btn-theme ms-4">Sort</button>
+    <div class="head-right-item">
+        <div class="cart" routerLink="cart">
+            <img class="cart-image"src="../../assets/cart.svg">
+            <div class="cart-items" *ngIf="cartItemCount">{{cartItemCount}}</div>
+        </div>
+
+    </div>
+ </div>

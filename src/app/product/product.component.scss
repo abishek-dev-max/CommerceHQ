@@ -1,0 +1,40 @@
+.book-card{
+    width: 75%;
+    border: 1px solid whitesmoke;
+    background-image: linear-gradient(to bottom,rgb(0, 255, 213),rgb(20, 205, 238));
+    border-radius: 0.5em;
+    margin: 1.1em 20%;
+    box-shadow: 3px 3px 3px 3px grey;  
+}
+.book-card:hover{
+    box-shadow: 3px 3px 3px 3px rgb(140, 219, 230);
+}
+.book-thumbnail{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: 30vh;
+    cursor: pointer;
+}
+
+.card-content{
+    padding: em ;
+}
+
+
+
+.btn-theme{
+    border-radius: 5px;
+    // height: 30px;
+    // float: right;
+    border: none;
+    padding: 5px 10px;
+    color:black;
+    background-color: rgb(42, 206, 110);
+    border-color:rgb(31, 200, 230);
+    outline: none;
+    // margin-top: 30px;
+    // margin-right: 1440px;
+    // font-size: 17px;
+}
